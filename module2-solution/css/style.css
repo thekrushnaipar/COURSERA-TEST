@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.row {
+    width: 100%;
+  }
+
+  div {
+    position: relative;
+    box-sizing: border-box;
+    background-color: gray;
+    margin: 1.33%;
+  }
+
+  @media (min-width: 992px) {
+    .col-lg-4 {
+      width: 30%;
+      float: left;
+      border: 2px solid black;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6, .col-md-12 {
+      float: left;
+      border: 2px solid black;
+    }
+    .col-md-6 {
+      width: 47%;
+    }
+    .col-md-12 {
+      width: 96.8%;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .col-sm-12 {
+      width: 100%;
+      float: left;
+      border: 2px solid black;
+    }
+  }
+
+  #p1 {
+    position: relative;
+    padding: 1%;
+    clear: both;
+  }
+
+  #p2 {
+    position: relative;
+    padding: 1%;
+    clear: both;
+  }
+
+  #p3 {
+    position: relative;
+    padding: 1%;
+    clear: both;
+  }
+
+#a {
+    background-color: red;
+    padding: 10px;
+    margin: unset;
+    float: right;
+    border: 2px solid black;
+    border-top: unset;
+    border-right: unset;
+    font-weight: bold;
+    font-size: 1.25em;
+
+}
+
+#b {
+    background-color: yellow;
+    padding: 10px 20px 10px 20px;
+    margin: unset;
+    float: right;
+    border: 2px solid black;
+    border-top: unset;
+    border-right: unset;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+#c {
+    background-color: green ;
+    padding: 10px 17px 10px 17px;
+    margin: unset;
+    float: right;
+    border: 2px solid black;
+    border-top: unset;
+    border-right: unset;
+    font-weight: bold;
+    font-size: 1.25em;
+
+
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
