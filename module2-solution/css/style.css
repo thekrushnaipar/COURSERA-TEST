@@ -62,7 +62,7 @@
   }
 
 #a {
-    background-color: red;
+    background-color: PeachPuff;
     padding: 10px;
     margin: unset;
     float: right;
@@ -75,7 +75,7 @@
 }
 
 #b {
-    background-color: maroon;
+    background-color: brown;
     padding: 10px 20px 10px 20px;
     margin: unset;
     float: right;
@@ -87,7 +87,7 @@
 }
 
 #c {
-    background-color: yellow;
+    background-color: khaki;
     padding: 10px 17px 10px 17px;
     margin: unset;
     float: right;
