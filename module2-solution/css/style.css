@@ -62,7 +62,7 @@
   }
 
 #a {
-    background-color: red;
+    background-color: pink;
     padding: 10px;
     margin: unset;
     float: right;
@@ -75,7 +75,7 @@
 }
 
 #b {
-    background-color: yellow;
+    background-color: maroon;
     padding: 10px 20px 10px 20px;
     margin: unset;
     float: right;
@@ -87,7 +87,7 @@
 }
 
 #c {
-    background-color: green ;
+    background-color: yellow ;
     padding: 10px 17px 10px 17px;
     margin: unset;
     float: right;
